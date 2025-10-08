@@ -6,7 +6,7 @@ import Login from "./components/Auth/Login.tsx";
 import TodoList from "./components/Todos/TodoList.tsx";
 import ThemeToggle from "./components/ThemeToggle.tsx";
 import { ThemeProvider } from "./contexts/ThemeContext.tsx";
-import axios, { AxiosError } from "axios";
+import axios from "axios";
 import type { Todo } from "./components/Todos/TodoList";
 
 axios.defaults.withCredentials = true;
