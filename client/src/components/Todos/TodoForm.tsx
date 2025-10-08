@@ -1,4 +1,6 @@
-import React, { FC, useState, FormEvent } from "react";
+//import type { FC, useState, FormEvent } from "react";
+import { useState, type FC, type FormEvent } from "react";
+
 
 import axios from "axios";
 
