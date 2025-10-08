@@ -48,10 +48,10 @@ const DraggableContainer: React.FC<DraggableContainerProps> = ({
     
     // Send reorder request to backend with correct endpoint and user ID
     const userId = localStorage.getItem('userId');
-    // const API_URL = process.env.NODE_ENV === 'production' 
-    //   ? 'https://todo-backend-8occ.onrender.com' 
-    //   : 'http://localhost:5000';
-    const API_URL = 'http://localhost:5000'; // Adjust as necessary
+    const API_URL = process.env.NODE_ENV === 'production' 
+      ? 'https://todo-list-backend-25zw.onrender.com' 
+      : 'http://localhost:5000';
+    //const API_URL = 'http://localhost:5000'; // Adjust as necessary
       
     axios.patch(`${API_URL}/todos/reorder`, { 
       userId: userId,
