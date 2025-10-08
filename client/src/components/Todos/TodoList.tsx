@@ -346,7 +346,7 @@ const cancelEdit = () => {
             <DraggableContainer 
               items={currentTodos} 
               onOrderChange={handleOrderChange}
-              renderItem={(todo, index) => {
+              renderItem={(todo) => {
                 const originalIndex = orderedTodos.findIndex(t => t._id === todo._id) + 1;
                 return (
                   <div className="md:grid md:grid-cols-5 flex flex-col items-start md:items-center px-4 py-3 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors duration-200 rounded border-b dark:border-gray-700 mb-2">
