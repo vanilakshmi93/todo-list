@@ -153,9 +153,9 @@ import type { Todo } from "./components/Todos/TodoList";
 
 axios.defaults.withCredentials = true;
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://todo-list-backend-25zw.onrender.com";
 
-const API_URL = 'http://localhost:5000'; // Adjust as needed
+//const API_URL = 'http://localhost:5000'; // Adjust as needed
 // Set default axios auth header on app initialization
 const token = localStorage.getItem("accessToken");
 if (token) {
