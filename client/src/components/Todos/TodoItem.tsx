@@ -27,7 +27,7 @@ const TodoItem: React.FC<Props> = ({ todo, fetchTodos, isSelected, onToggleSelec
   const [editedStatus, setEditedStatus] = useState(todo.status || "pending");
 
   const API_URL = process.env.NODE_ENV === 'production' 
-    ? 'https://todo-backend-8occ.onrender.com' 
+    ? 'https://todo-list-backend-25zw.onrender.com' 
     : 'http://localhost:5000';
     
   const handleDelete = async () => {

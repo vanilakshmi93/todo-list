@@ -155,6 +155,7 @@ axios.defaults.withCredentials = true;
 
 const API_URL = "http://localhost:5000";
 
+const API_URL = 'http://localhost:5000'; // Adjust as needed
 // Set default axios auth header on app initialization
 const token = localStorage.getItem("accessToken");
 if (token) {

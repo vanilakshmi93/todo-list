@@ -57,7 +57,7 @@ useEffect(() => {
 }, []); 
 
 
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://todo-list-backend-25zw.onrender.com';
 
 const updateTodo = async (id: string, updates: Partial<Todo>) => {
   try {

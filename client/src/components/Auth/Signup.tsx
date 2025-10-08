@@ -15,7 +15,7 @@ const Signup: React.FC = () => {
 
   // Add API_URL logic similar to Login.tsx
   const API_URL = process.env.NODE_ENV === 'production' 
-    ? 'https://todo-backend-8occ.onrender.com' 
+    ? 'https://todo-list-backend-25zw.onrender.com' 
     : 'http://localhost:5000';
 
   // Optimized input handlers with useCallback
